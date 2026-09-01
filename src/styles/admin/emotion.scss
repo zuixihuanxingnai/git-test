@@ -1,0 +1,112 @@
+.detail-content {
+  .detail-section {
+    margin-bottom: 24px;
+    
+    h4 {
+      margin: 0 0 16px 0;
+      color: #303133;
+      font-size: 16px;
+      
+      i {
+        margin-right: 8px;
+        color: #409eff;
+      }
+    }
+  }
+}
+
+// AI分析相关样式
+.ai-analysis-status {
+  .ai-status-tag {
+    margin-bottom: 4px;
+    
+    i {
+      margin-right: 4px;
+    }
+  }
+  
+  .ai-analysis-preview {
+    font-size: 11px;
+    color: #909399;
+    margin-top: 2px;
+  }
+}
+
+.ai-analysis-result {
+  .ai-keywords-section,
+  .ai-suggestion-section,
+  .ai-risk-section,
+  .ai-improvements-section {
+    margin-top: 16px;
+    padding: 12px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    
+    h5 {
+      margin: 0 0 8px 0;
+      color: #606266;
+      font-size: 14px;
+      font-weight: 600;
+      
+      i {
+        margin-right: 6px;
+        color: #909399;
+      }
+    }
+  }
+  
+  .keywords-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    
+    .keyword-tag {
+      background-color: #e1f3d8;
+      color: #67c23a;
+      border-color: #b3d8a4;
+    }
+  }
+  
+  .suggestion-content,
+  .risk-content {
+    line-height: 1.6;
+    color: #606266;
+    background-color: white;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ebeef5;
+  }
+  
+  .improvement-list {
+    margin: 0;
+    padding-left: 20px;
+    
+    li {
+      margin-bottom: 4px;
+      color: #606266;
+      line-height: 1.5;
+    }
+  }
+  
+  .ai-analysis-meta {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid #ebeef5;
+    
+    .analysis-time {
+      margin: 0;
+      font-size: 12px;
+      color: #909399;
+      
+      i {
+        margin-right: 4px;
+      }
+    }
+  }
+  
+  .el-progress {
+    .el-progress__text {
+      font-size: 12px !important;
+    }
+  }
+}

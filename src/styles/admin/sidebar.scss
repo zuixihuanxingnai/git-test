@@ -1,0 +1,29 @@
+.menu{
+  height: 100%;position: fixed;
+ .sidebar {
+  height: 100%;
+  
+ }
+ .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e7eb;
+
+    .info-card {
+        .brand-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #1f2937;
+        }
+
+        .brand-subtitle {
+            font-size: 14px;
+            color: #6b7280;
+        }
+    }
+}
+}

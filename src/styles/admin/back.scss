@@ -1,0 +1,34 @@
+.back-layout {
+  height: 100vh;
+
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 64px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    border-right: 1px solid #e5e7eb;
+    .info-card {
+      .brand-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #1f2937;
+      }
+      .brand-subtitle {
+        font-size: 14px;
+        color: #6b7280;
+      }
+    }
+  }
+}
+
+// Content 区域可滚动
+.back-content {
+  overflow-y: auto;
+  height: calc(100vh - 74px);   // 减去 Header 高度
+  padding: 20px;
+  background: #fff;
+}

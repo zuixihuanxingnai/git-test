@@ -1,0 +1,57 @@
+.container {
+  width: 384px;
+
+  .title {
+    .back-home {
+      display: flex;
+      align-items: center;
+      margin-bottom: 60px;
+      cursor: pointer;
+      color: #8e9096;
+     .el-icon{
+      font-size: 24px;
+      margin-right: 10px;
+     }
+    }
+    .title-text {
+      text-align: center;
+
+      h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+        color: #6b7280;
+      }
+    }
+  }
+  .form-container {
+  .btn {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .footer {
+    margin-top: 40px;
+    text-align: center;
+
+    p {
+      font-size: 18px;
+      color: #6b7280;
+    }
+  }
+}
+.form-container {
+  .btn {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .footer {
+    padding: 30px;
+    text-align: center;
+  }
+}
+}
