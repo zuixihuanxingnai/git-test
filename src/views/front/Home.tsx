@@ -16,7 +16,7 @@ const Home = () => {
             <span className="highlight-text">化孤更改独为慰藉</span>
           </h2>
           <p className="description">
-            每个深夜，每个焦虑的时刻，我们都在这里。不必独自承受，让心与心的连接温暖您的每一天
+            每个深夜，每个焦虑的时刻，我们都在这里。不必独自承受，让心与心的连接温暖您的每一天，李家满
           </p>
           <div className="hero-actions">
             <Button
