@@ -24,7 +24,7 @@ const Home = () => {
               style={{ fontSize: 14 }}
               onClick={() => navigate("/consultation")}
             >
-              开始倾诉，获得陪伴
+              开始倾诉，获得陪伴,增加水果
             </Button>
             <Button
               size="large"
