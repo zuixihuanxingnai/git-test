@@ -32,7 +32,7 @@ const Home = () => {
               ghost
               onClick={() => navigate("/emotion-diary")}
             >
-              记录心情 释放情感
+              记录心情 释放情感,分支上的改变
             </Button>
           </div>
         </div>
